@@ -25,7 +25,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    namespace "com.sayegh.move_to_background"
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 16
